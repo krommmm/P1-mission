@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    
+    
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+   
+ 
+}
+
+header .logo_big{
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+ header #partie_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* MAIN */
+
+#banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0px;
+    width: 100%;
+    height: 450px;
+
+}
+
+#banner-content{
+    position: absolute;
+
+}
+
+#img-background{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    }
+
+/* MAIN-PRESENTATION */
+
+#presentation{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0px;
+    width: 100%;
+    height: 450px;
+}
+
+#presentation #presentation-background{
+    height: 175x;
+    opacity: 0.3;
+}
+
+
+#presentation-background{
+    height: 450px;
+    width: 100%;
+    object-fit: cover; 
+}
+
+#container{
+    width: 100%;
+    height: 100%; 
+}
+
+#container-title{
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%; 
+}
+
+
+#container-content{
+    top: 100px;
+    padding-top: 50px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#container-content article{
+    max-width: 300px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+}
+
+
+ /* MAIN-LIVRABLES */
+
+ #livrables{
+    background-color: #fcd8d3
+ }
+
+ h4{
+    text-align:center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#livrables-content{
+    display: flex;  
+    justify-content: space-around;   
+}
+#livrables-content article{
+    
+}
+
+article img{
+    height: 60px;
+}
+
+@media screen and (max-width: 890px){
+   #presentation{
+        padding-bottom: 50px;
+    }
+#container-content{
+    top: 100px;
+  
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#livrables-content{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    width: 100%;
+}
+
+}
